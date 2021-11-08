@@ -4,6 +4,14 @@ main {
     position: absolute;
     top: 2rem;
   }
+  .pizzas-container {
+   
+    text-align: center;
+    h1 {
+      padding: 8.8rem 0;
+      font-size: 3.6rem;
+    }
+  }
   .best-sellers {
     position: relative;
     padding: 8.8rem 0;
@@ -11,6 +19,7 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+
   }
   .box-best-sellers {
     display: flex;
