@@ -1,11 +1,12 @@
 @import "variables";
 main {
 
-  img {
+  .pizza {
     position: absolute;
     top: -7rem;
   }
   .pizzas-container {
+    position: relative;
     padding: 8.8rem 0;
     text-align: center;
     h1 {
@@ -66,6 +67,20 @@ main {
       background-color: $orange;
       border-radius: 2.5rem;
       padding: 0.8rem 3.2rem;
+    }
+  }
+
+  .images {
+    .ingredients {
+      position: absolute;
+      &:nth-child(1) {
+        top: 0;
+        left: 0;
+      }
+      &:nth-child(2) {
+        top: 7rem;
+        left: 26.2rem;
+      }
     }
   }
 }
