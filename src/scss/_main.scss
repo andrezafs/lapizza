@@ -1,8 +1,9 @@
 @import "variables";
 main {
+
   img {
     position: absolute;
-    top: 2rem;
+    top: -7rem;
   }
   .pizzas-container {
     padding: 8.8rem 0;
@@ -21,7 +22,18 @@ main {
     align-items: center;
 
   }
+  .like {
+    position: absolute;
+    right: 1rem;
+    top: -2rem;
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 1.4rem;
+      background-color:  #FFD4C9;
+      border: .2rem solid $red;
+    }
   .box-best-sellers {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +58,7 @@ main {
       font-size: 3.2rem;
     }
 
-    button {
+    .compra {
       position: relative;
       top: 1rem;
       cursor: pointer;
