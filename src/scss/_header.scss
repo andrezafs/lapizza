@@ -1,0 +1,33 @@
+@import 'variables';
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-position: center;
+  
+    height: 50rem;
+    
+    h1 {
+        
+        color:$ligth;
+    }
+   h1, span {
+    font-size: 9.6rem;
+    font-weight: 600;
+   }
+    .span {
+        &:nth-child(1) {
+          color:$orange;
+        }
+        &:nth-child(2) {
+          color: $red;
+        }
+        &:nth-child(3) {
+          color: $green;
+        }
+      }
+}
+
