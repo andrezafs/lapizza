@@ -1,0 +1,33 @@
+@import "variables";
+main {
+  img {
+      position: relative;
+    bottom: 5rem;
+  }
+  .best-sellers {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 8.8rem 0;
+  }
+  .box-best-sellers {
+      position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25.6rem;
+    border-radius: 2.5rem;
+    background-color: $ligth;
+    padding: 0 3.8rem;
+    text-align: center;
+    h1 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+    .price {
+        font-size: 3.2rem;
+    }
+  }
+}
