@@ -35,5 +35,15 @@ position: relative;
       padding:2.4rem 0;
         font-size: 3.2rem;
     }
+
+    button {
+      position: relative;
+      top: 1rem;
+      cursor: pointer;
+      font-size: 1.2rem;
+      background-color: $orange;
+      border-radius: 2.5rem;
+      padding: .8rem 3.2rem;
+    }
   }
 }
