@@ -1,4 +1,4 @@
-
+@import 'variables';
 * {
   margin: 0;
   padding: 0;
@@ -14,4 +14,19 @@
 
 button {
   border: none;
+  cursor: pointer;
+  background-color: $orange;
+  border-radius: 2.5rem;
+}
+
+.span {
+  &:nth-child(1) {
+    color:$orange;
+  }
+  &:nth-child(2) {
+    color: $red;
+  }
+  &:nth-child(3) {
+    color: $green;
+  }
 }
