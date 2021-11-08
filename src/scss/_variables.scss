@@ -9,16 +9,20 @@ $ligth: #FEF6F4;
 
 // FONTES
 
-@font-face {
-    font-family:'Sora 300' ;
-    src: url(../fonts/Sora-Light.ttf) format("woff2");
-    font-weight: 300;
-}
+// @font-face {
+//     font-family:'Sora 300' ;
+//     src: url(../fonts/Sora-Light.ttf) format("woff2");
+//     font-weight: 300;
+// }
 
+// @font-face {
+//     font-family:'Sora 600' ;
+//     src: url(../fonts/Sora-SemiBold.ttf) format("woff2");
+//     font-weight: 600;
+// }
 @font-face {
-    font-family:'Sora 600' ;
-    src: url(../fonts/Sora-SemiBold.ttf) format("woff2");
-    font-weight: 600;
+    font-family:'Sora' ;
+    src: url(../fonts/Sora.ttf) format("woff2");
 }
 
 
