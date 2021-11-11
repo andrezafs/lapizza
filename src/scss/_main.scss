@@ -87,8 +87,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   padding: 5rem 0;
+  @media screen and (max-width: 900px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   &-bg {
     img {
       width: 100%;
@@ -97,6 +100,11 @@ main {
   &-description {
     width: 45.8rem;
     width: 50%;
+    @media screen and (max-width: 900px) {
+      margin: 5rem 0;
+      text-align: justify;
+      width: 80%;
+    }
 
     h1,
     span {
