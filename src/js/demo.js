@@ -1,3 +1,9 @@
-const demo = () => "Webpack Boilerplate!";
+const like = document.querySelector('.like')
+const svg = document.querySelector('.svg')
 
-console.log(demo());
+like.addEventListener ('click', () => {
+    console.log('clicou');
+    svg.style.fill = '#CF3031'
+   
+})
+console.log(like);
