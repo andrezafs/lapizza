@@ -70,13 +70,31 @@ main {
     .ingredients {
       position: absolute;
       &:nth-child(1) {
-        top: 0;
+        top: -5rem;
         left: 0;
       }
       &:nth-child(2) {
-        top: 7rem;
-        left: 26.2rem;
+        top: 3rem;
+        left: 42rem;
       }
+      &:nth-child(3) {
+        top: 2rem;
+        right: 19rem;
+      }
+      &:nth-child(4) {
+        bottom: 9rem;
+        left: 5rem;
+      }
+      &:nth-child(5) {
+        bottom: -7rem;
+        right: 15rem;
+      }
+      &:nth-child(6) {
+        top: 40%;
+        right: 12rem;
+        z-index: -1;
+      }
+      
     }
   }
 }
@@ -84,6 +102,7 @@ main {
   background-color:  #FCFCFC;
 }
 .sobre-container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -92,7 +111,19 @@ main {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .pizza {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+ box-shadow: 0px 3.04px 3.04px rgba(159, 62, 62, 0.25);
+    &:nth-child(1) {
+      top:7rem;
+      left: 0;
+    }
+    
+  }
   &-bg {
+   
     img {
       width: 100%;
     }
