@@ -10,6 +10,7 @@ module.exports = merge(CommonWebpackConfiguration, {
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "js/[name].[contenthash].bundle.js",
+    publicPath: path.resolve(__dirname, "build"),
   },
   optimization: {
     minimize: true,
