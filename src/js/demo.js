@@ -1,9 +1,10 @@
-const like = document.querySelector('.like')
-const svg = document.querySelector('.svg')
 
-like.addEventListener ('click', () => {
-    console.log('clicou');
-    svg.style.fill = '#CF3031'
-   
-})
-console.log(like);
+document.querySelectorAll("#like")
+.forEach(function(el) {  
+   el.addEventListener("click",
+    function() {
+      if (this.classList.contains("active")== false)
+        this.classList.add("active");
+      else this.removeAttribute("class");
+    });
+});
