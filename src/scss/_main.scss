@@ -173,10 +173,27 @@ footer {
 background-repeat: no-repeat;
 }
 
+@keyframes ani {
+  0% {
+    transform: scale(1);
+  }
+  
+  50% {
+    transform: scale(1.25);
+  }
+  
+  100% {
+    transform: scale(1);
+  }
+}
+
+
 
 .active {
+  
   svg {
     fill:#CF3031;
+    animation: ani 220ms both;
   
 }
 }
